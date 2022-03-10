@@ -6,13 +6,15 @@
   "author": "Jeong Woojin <doublexuj@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "gulp env",
+    "dev": "gulp dev",
     "build": "gulp build"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
-    "@babel/register": "^7.17.0"
+    "@babel/register": "^7.17.0",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "del": "^6.0.0"
   }
 }
